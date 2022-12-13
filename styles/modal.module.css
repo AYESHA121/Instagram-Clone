@@ -1,0 +1,43 @@
+.modal {
+    /* border: 2px solid black; */
+    margin: 2%;
+}
+
+.Image {
+    /* border: 2px solid black; */
+    width: 180;
+    height: 180;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid black; */
+    /* margin: 1%; */
+}
+.detail{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin:2%
+}
+
+.card {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: white;
+    margin: 1rem auto;
+    color: black;
+    text-decoration: none;
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    transition: color 0.15s ease, border-color 0.15s ease;
+    width: 500px;
+    height: 350px;
+}
